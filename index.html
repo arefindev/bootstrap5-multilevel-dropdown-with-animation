@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Multilevel Dropdown Menu with Animation</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton222" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+        </button>
+        <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownMenuButton222">
+    
+            <div class="dropdown dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-layouts" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Design</a>
+                <div class="dropdown-menu animate slideIn" aria-labelledby="dropdown-layouts">
+                    <a class="dropdown-item" href="#">HTML</a>
+                    <a class="dropdown-item" href="#">CSS</a>
+                    <a class="dropdown-item" href="#">Bootstrap 5</a>
+                </div>
+            </div>
+    
+            <div class="dropdown dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-layouts" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Development</a>
+                <div class="dropdown-menu animate slideIn" aria-labelledby="dropdown-layouts">
+                    <a class="dropdown-item" href="#">Laravel</a>
+                    <a class="dropdown-item" href="#">Python</a>
+                    <a class="dropdown-item" href="#">React</a>
+                </div>
+            </div>
+    
+            <a class="dropdown-item" href="#">Excel</a>
+            <a class="dropdown-item" href="#">Powerpoint</a>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.3.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    
+</body>
+</html>
